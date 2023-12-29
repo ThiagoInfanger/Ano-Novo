@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Contagem regressiva para o Ano Novo</title>
+  </head>
+  <body>
+    <h1 class="heading">
+        <span>Contagem regressiva </span>
+        <span>para o Ano Novo</span>    
+    </h1>
+    <div class="counter" id="counter">
+        <div class="glass">
+            <div class="card">
+                <span class="value" id="days">00</span>
+                <span class="caption">dias</span>
+            </div>
+        </div>
+        <div class="glass">
+            <div class="card">
+                <span class="value" id="hours">00</span>
+                <span class="caption">horas</span>
+            </div>
+        </div>
+        <div class="glass">
+            <div class="card">
+                <span class="value" id="minutes">00</span>
+                <span class="caption">minutos</span>
+            </div>
+        </div>
+        <div class="glass">
+            <div class="card">
+                <span class="value" id="seconds">00</span>
+                <span class="caption">segundos</span>
+            </div>
+        </div>
+    </div>
+    
+    <img
+    src="./img/spinner.gif"
+    alt="Carregando..."
+    id="loading"
+    class="loading"
+    />
+
+    <div id="year" class="year"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
